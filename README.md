@@ -171,10 +171,15 @@ node index.js
 #### But if you close your ssh session here. It's gonna kill this process. To prevent this we are going to need a package which is called ```pm2```
 
 ## pm2
+```
 npm i -g pm2
+```
 Let's create a new pm2 instance
+```
 pm2 start --name api index.js   
+```
 pm2 startup ubuntu 
+```
 ### pm2 cheat list
 pm2 start app.js --name my-api # Name process
 #### Cluster mode
