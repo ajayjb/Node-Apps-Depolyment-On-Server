@@ -8,6 +8,10 @@ serve -s build -l [port]
 And run .sh file as below
 
 ```
+serve -s build -l [port]
+```
+
+```
 pm2 start [bash_script_file] -- name [process_name]
 ```
 
@@ -20,10 +24,10 @@ Inside it write below code
 {
   apps : [
     {
-      name : "react-app",
+      name : [process_name],
       script : "npx",
       interpreter : "none",
-      args: "serve -s build -p 3000"
+      args: "serve -s build -l [port]"
     }
   ]
 }
