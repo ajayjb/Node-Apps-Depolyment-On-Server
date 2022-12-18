@@ -173,14 +173,13 @@ node index.js
 ## pm2
 ````
 npm i -g pm2
-```
+
 Let's create a new pm2 instance
-```
+
 pm2 start --name api index.js   
-```
-```
+
 pm2 startup ubuntu 
-```
+
 #### pm2 cheat list
 pm2 start app.js --name my-api # Name process
 
@@ -228,7 +227,6 @@ pm2 sendSignal SIGUSR2 my-app # Send system signal to script
 pm2 start app.js --no-daemon
 pm2 start app.js --no-vizion
 pm2 start app.js --no-autorestart
-
 ```
 ## React App Deployment
 ```
