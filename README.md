@@ -1,4 +1,4 @@
-# VPS-Set-Up
+# VPS-Set-Up-For-Node-Apps
 
 ## Creating SSH Key
 
