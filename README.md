@@ -181,7 +181,9 @@ pm2 start --name api index.js
 pm2 startup ubuntu 
 ```
 ### pm2 cheat list
+```
 pm2 start app.js --name my-api # Name process
+```
 #### Cluster mode
 pm2 start app.js -i 0        # Will start maximum processes with LB depending on available CPUs
 pm2 start app.js -i max      # Same as above, but deprecated.
