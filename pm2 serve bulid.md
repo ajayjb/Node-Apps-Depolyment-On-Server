@@ -8,7 +8,7 @@ serve -s build -l [port]
 And run .sh file as below
 
 ```
-pm2 start [bash_script_file] -- name [process_name]
+pm2 start [bash_script_file] --name [process_name]
 ```
 
 
