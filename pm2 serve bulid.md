@@ -8,11 +8,6 @@ serve -s build -l [port]
 And run .sh file as below
 
 ```
-serve -s build -l [port]
-```
-
-and then run below code
-```
 pm2 start [bash_script_file] -- name [process_name]
 ```
 
