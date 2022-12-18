@@ -215,9 +215,9 @@ pm2 start app.js --name my-api # Name process
 ```pm2 sendSignal SIGUSR2 my-app``` # Send system signal to script\
 ```pm2 start app.js --no-daemon```\
 ```pm2 start app.js --no-vizion```\
-```pm2 start app.js --no-autorestart```\
+```pm2 start app.js --no-autorestart```
  
-#### React Node App Deployment
+## React Node App Deployment
 ```
 cd ../client
 ```
