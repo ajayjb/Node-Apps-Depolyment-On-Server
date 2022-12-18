@@ -14,7 +14,7 @@ pm2 start [bash_script_file] -- name [process_name]
 
 ## Create app.config.json file
 
-Inside it write below code \
+Inside it write below code 
 
 ```
 {
