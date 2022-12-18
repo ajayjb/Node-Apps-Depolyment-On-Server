@@ -12,7 +12,7 @@ pm2 start [bash_script_file] -- name [process_name]
 ```
 
 
-## Create app.config.json file
+## (Or) Create app.config.json file
 
 Inside it write below code 
 
@@ -33,7 +33,7 @@ Run blow code \
 pm2 start app.config.json
 ```
 
-## Run below command
+## (Or) Run below command
 ```
 pm2 serve build/ [port] --name [process_name]
 ```
